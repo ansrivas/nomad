@@ -1,6 +1,6 @@
 FROM debian:buster-slim AS build-base
 
-ENV NOMAD_VERSION 1.0.0-beta3
+ENV NOMAD_VERSION 1.0.0
 
 RUN apt-get update -y \
     && apt-get install -y wget zip \
